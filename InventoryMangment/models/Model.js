@@ -127,7 +127,7 @@ class Model {
 					} else {
 						return {result:false,msg:s.msg};
 					}
-				} catch (ex){
+				} catch (ex){ 
 					return {result:false,msg:'server error, please try again'};
 				}
 		});
